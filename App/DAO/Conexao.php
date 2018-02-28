@@ -15,7 +15,7 @@ class Conexao
     private $database = "db_estoque";
     private $host = "localhost";
     private $user = "root";
-    private $senha = "zetawe123";
+    private $senha = "Suporte99";
 
     /**
      * Conexao constructor.
