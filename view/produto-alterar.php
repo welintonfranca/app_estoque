@@ -5,6 +5,11 @@ include 'cabecalho.php';?>
 <?php
     include '../vendor/autoload.php';
 
+
+    //verificar se o usuario esta logado
+    $uDAO = new \App\DAO\UsuarioDAO();
+    $uDAO->verificar();
+
     if ($_POST){
         $p2 = new \App\Model\Produto();
         $p2->setId($_POST['id']);
